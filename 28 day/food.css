@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #1a0d0d, #ff0000, #701657, #039fec);
+    background-size: 400% 400%;
+    animation: gradientBG 8s infinite alternate;
+    color: #fff;
+    text-align: center;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    position: fixed;
+    width: 90%;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 0, 0);
+}
+
+/* Hero */
+.hero {
+    padding: 100px 20px;
+}
+
+.menu {
+    padding: 50px;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item-card {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 15px;
+    border-radius: 15px;
+    width: 220px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item-card img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    height: 80%;
+}
+.h3 p{
+    align-items: center;
+}
+
+.item-card:hover {
+    transform: scale(1.1);
+}
+
+.item-card:hover img {
+    transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
