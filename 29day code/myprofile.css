@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #ff0008, #853d29, #91477c, #000000);
+    background-size: 400% 400%;
+    animation: gradientBG 8s infinite alternate;
+    color: #fff;
+    text-align: center;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    position: fixed;
+    width: 90%;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+
+.hero {
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 35px;
+    animation: fadeIn 2s ease-in-out;
+    color: rgb(255, 255, 255) ;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #ff4b5c;
+    border: none;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: yellow;
+    color: black;
+}
+
+#about, #skills, #portfolio, #contact {
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 50px auto;
+    width: 80%;
+    border-radius: 20px;
+}
+
+#skills .skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#skills .skills-container span {
+    background: rgba(88, 74, 74, 0.3);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Portfolio */
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: rgba(90, 71, 71, 0.3);
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+} 
