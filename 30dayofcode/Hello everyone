@@ -1,0 +1,29 @@
+Day 30/100 of Code: Building a Data Science Web App with Flask! 🎯
+
+Today, I combined HTML, CSS, Python, and Data Science to create a Flask-powered interactive dashboard! 📊
+
+What I Built?
+✅ Processed customer purchase data using Pandas 🐼
+✅ Performed data visualization using Matplotlib & Seaborn 📈
+✅ Developed a simple Flask web app to display insights 🌐
+✅ Styled it with HTML & CSS for a clean UI 🎨
+
+How It Works?
+🔹 Flask Backend loads and processes data
+🔹 Python generates analytics & saves visualizations
+🔹 HTML & CSS display the graphs in a user-friendly dashboard
+
+📌 Key Learnings Today:
+🔹 Connecting Flask with Data Science
+🔹 Creating dynamic dashboards for real-world applications
+🔹 Making Python web-friendly with Flask
+
+🚀 Next Steps:
+1️⃣ Add interactivity with JavaScript & AJAX
+2️⃣ Host the app on Render or Heroku
+3️⃣ Improve UI with Bootstrap/Tailwind CSS
+
+🔍 Want to try this challenge? Build a Flask dashboard for your own dataset & share your results!
+
+#100DaysOfCode #Flask #Python #DataScience #WebDevelopment #MachineLearning #AI #Pandas #Matplotlib #Seaborn #CodingJourney #FullStack #LearningByDoing
+
